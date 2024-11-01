@@ -9,12 +9,13 @@ body {
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
+  background-image: linear-gradient(cyan, white, gold);
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: blue;
   color: white;
   grid-column: 1 / span 2;
   padding: 10px 5px;
@@ -40,7 +41,7 @@ article {
 }
 
 nav {
-  background-color: #dee9ff;
+  background-image: linear-gradient(cyan, white, gold);
 }
 
 nav p:hover {
